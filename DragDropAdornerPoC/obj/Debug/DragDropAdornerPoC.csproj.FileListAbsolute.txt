@@ -1,0 +1,15 @@
+C:\Users\x.pawe.rudnicki\source\repos\DragDropAdornerPoC\DragDropAdornerPoC\bin\Debug\DragDropAdornerPoC.exe.config
+C:\Users\x.pawe.rudnicki\source\repos\DragDropAdornerPoC\DragDropAdornerPoC\bin\Debug\DragDropAdornerPoC.exe
+C:\Users\x.pawe.rudnicki\source\repos\DragDropAdornerPoC\DragDropAdornerPoC\bin\Debug\DragDropAdornerPoC.pdb
+C:\Users\x.pawe.rudnicki\source\repos\DragDropAdornerPoC\DragDropAdornerPoC\obj\Debug\MainWindow.g.cs
+C:\Users\x.pawe.rudnicki\source\repos\DragDropAdornerPoC\DragDropAdornerPoC\obj\Debug\App.g.cs
+C:\Users\x.pawe.rudnicki\source\repos\DragDropAdornerPoC\DragDropAdornerPoC\obj\Debug\DragDropAdornerPoC_MarkupCompile.cache
+C:\Users\x.pawe.rudnicki\source\repos\DragDropAdornerPoC\DragDropAdornerPoC\obj\Debug\MainWindow.baml
+C:\Users\x.pawe.rudnicki\source\repos\DragDropAdornerPoC\DragDropAdornerPoC\obj\Debug\DragDropAdornerPoC.g.resources
+C:\Users\x.pawe.rudnicki\source\repos\DragDropAdornerPoC\DragDropAdornerPoC\obj\Debug\DragDropAdornerPoC.Properties.Resources.resources
+C:\Users\x.pawe.rudnicki\source\repos\DragDropAdornerPoC\DragDropAdornerPoC\obj\Debug\DragDropAdornerPoC.csproj.GenerateResource.cache
+C:\Users\x.pawe.rudnicki\source\repos\DragDropAdornerPoC\DragDropAdornerPoC\obj\Debug\DragDropAdornerPoC.csproj.CoreCompileInputs.cache
+C:\Users\x.pawe.rudnicki\source\repos\DragDropAdornerPoC\DragDropAdornerPoC\obj\Debug\DragDropAdornerPoC.exe
+C:\Users\x.pawe.rudnicki\source\repos\DragDropAdornerPoC\DragDropAdornerPoC\obj\Debug\DragDropAdornerPoC.pdb
+C:\Users\x.pawe.rudnicki\source\repos\DragDropAdornerPoC\DragDropAdornerPoC\obj\Debug\DragDropAdornerPoC_MarkupCompile.lref
+C:\Users\x.pawe.rudnicki\source\repos\DragDropAdornerPoC\DragDropAdornerPoC\obj\Debug\GeneratedInternalTypeHelper.g.cs
