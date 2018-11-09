@@ -55,6 +55,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Adorners\CarretAdorner.cs" />
+    <Compile Include="Adorners\RectangleAdorner.cs" />
     <Compile Include="Behaviors\DragBehaviour.cs" />
     <Compile Include="Behaviors\MouseBehaviour.cs" />
     <Compile Include="Commands\EventToCommand\CommandBehavior.cs" />
