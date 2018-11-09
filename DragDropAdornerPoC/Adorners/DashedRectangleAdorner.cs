@@ -4,10 +4,10 @@ using System.Windows.Media;
 
 namespace DragDropAdornerPoC.Adorners
 {
-    public class RectangleAdorner : Adorner
+    public class DashedRectangleAdorner : Adorner
     {
-        public RectangleAdorner(UIElement adornedElement)
-                : base(adornedElement)
+        public DashedRectangleAdorner(UIElement adornedElement) 
+            : base(adornedElement)
         {
         }
 
@@ -15,6 +15,7 @@ namespace DragDropAdornerPoC.Adorners
         {
             var adornedElementRect = new Rect(this.AdornedElement.DesiredSize);
             var renderPen = new Pen(new SolidColorBrush(Colors.Black), 1.5);
+            renderPen.DashStyle = DashStyles.Dash;
 
             drawingContext.DrawLine(renderPen, adornedElementRect.TopLeft, adornedElementRect.TopRight);
             drawingContext.DrawLine(renderPen, adornedElementRect.TopLeft, adornedElementRect.BottomLeft);

@@ -16,7 +16,7 @@ namespace DragDropAdornerPoC.ViewModels
     {
         #region Fields & Properties
         private Point _startingPoint;
-        private RectangleAdorner _adorner;
+        private DashedRectangleAdorner _adorner;
         private ListViewItem _currentListViewItem;
         private int _currentIndex;
         private int _startingIndex;
@@ -248,13 +248,13 @@ namespace DragDropAdornerPoC.ViewModels
                                 var nextContainer = (ListViewItem)listView.ItemContainerGenerator.ContainerFromIndex(_currentIndex + 1);
                                 _currentListViewItem = nextContainer;
 
-                                _adorner = new RectangleAdorner(_currentListViewItem);
+                                _adorner = new DashedRectangleAdorner(_currentListViewItem);
                                 AdornerLayer.GetAdornerLayer(_currentListViewItem).Add(_adorner);
                             }
                             else
                             {
                                 _currentListViewItem = currentListViewItem;
-                                _adorner = new RectangleAdorner(currentListViewItem);
+                                _adorner = new DashedRectangleAdorner(currentListViewItem);
                                 AdornerLayer.GetAdornerLayer(_currentListViewItem).Add(_adorner);
                             }
                         }
