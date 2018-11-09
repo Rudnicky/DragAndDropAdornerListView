@@ -9,6 +9,8 @@ namespace DragDropAdornerPoC.Adorners
         public DashedRectangleAdorner(UIElement adornedElement) 
             : base(adornedElement)
         {
+            this.IsEnabled = false;
+            this.IsHitTestVisible = false;
         }
 
         protected override void OnRender(DrawingContext drawingContext)

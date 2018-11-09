@@ -5,6 +5,7 @@ using DragDropAdornerPoC.Helpers;
 using DragDropAdornerPoC.Models;
 using System;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Documents;
@@ -229,6 +230,7 @@ namespace DragDropAdornerPoC.ViewModels
 
         private void ListView_DragEnter(object x)
         {
+            Debug.WriteLine("ListView_DragEnter");
             if (x is DragEventArguments dragArgs)
             {
                 if (!dragArgs.E.Data.GetDataPresent("CustomFormat") || dragArgs.Sender == dragArgs.E.Source)
@@ -287,6 +289,7 @@ namespace DragDropAdornerPoC.ViewModels
 
         private void ListView_DragLeave(object x)
         {
+            Debug.WriteLine("ListView_DragLeave");
             if (_currentListViewItem != null)
             {
                 AdornerLayer.GetAdornerLayer(_currentListViewItem).Remove(_adorner);
